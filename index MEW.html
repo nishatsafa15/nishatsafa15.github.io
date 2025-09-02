@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nishat Tasnim Safa Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Nishat Tasnim Safa</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="#Conference-section" class="nav-link"><span>Conference</span></a></li>
+			  <li class="nav-item"><a href="#Certifications-section" class="nav-link"><span>Certifications</span></a></li>
+			  <li class="nav-item"><a href="#Trainning-section" class="nav-link"><span>Trainning</span></a></li>
+			  <li class="nav-item"><a href="#Extra-curricular Activities & Volunteering-section" class="nav-link"><span>Extra-curricular Activities & Volunteering</span></a></li>
+			  <li class="nav-item"><a href="#Awards-section" class="nav-link"><span>Awards</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/proj_20.jpg);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Nishat Tasnim Safa</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'GIS & Remote Sensing Analyst  ',
+						'Crop Modeller  ',
+						'Environment Analyst  ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Geospatial Researcher Empowering Climate Action</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.linkedin.com/in/nishattasnimsafa" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+							<a href="https://github.com/nishatsafa15" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-me">
+										<img src="images/proj_1.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Nishat Tasnim Safa</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Research Assistant</span></p>
+										<p><span class="title-s">Experience: </span> <span>4 Years 3 Months</span></p>
+										<p><span class="title-s">Address: </span> <span>GIS & REmote Sensing Lab, Gazipur Agricultural University</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>Google Earth Engine</span> <span class="pull-right">70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">50%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Arc GIS</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>Arc GIS Pro</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>R Programming</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>Graphics Design</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>With over 5 years of research experience, I specialize in GIS & Remote Sensing, and Agricultural applications.
+My work focuses on spatial analysis, DSSAT crop modeling, and environmental monitoring.
+I’ve conducted research on microplastics pollution and climate stress on crops and also Water.
+Skilled in ArcGIS, QGIS, GEE, R, and Adobe Illustrator for geospatial analysis and also actively engage in youth-led climate action and science communication. Passionate about using geoinformatics for sustainable development solutions.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>GIS Researcher &amp; Crop Modeller</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>GIS and Remote Sensing
+, Crop Modeling and DSSAT, Environmental Pollution Analysis, Climate Change and Agriculture,
+
+ &amp; Geospatial Applications in Sustainability
+</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Science in Agriculture</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>Tools:</span> <span>Microsoft Office, Google Earth Engine, Arc GIS pro, SPSS, R &amp; Kobo Toolbox</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Adobe Illustrator, Excel, Git, Biorender, Canva &amp; Capcut</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching,Cycling</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="30">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/nishattasnimsafa" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p></p>
+          </div>Specializes in GIS, Remote Sensing, and Crop Modeling for sustainable agriculture and passionate about environmental monitoring, climate resilience, and data-driven solutions.
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023-Present</span>
+						<h2>Graduate Research Assistant</h2>
+						<span class="position">GIS and Remote Sensing Lab</span>
+						<p class="mt-4">The GIS and Remote Sensing Lab at Gazipur Agricultural University (GAU) is a specialized research facility focused on geospatial technologies for sustainable natural resource management and environmental monitoring. The lab supports advanced research in remote sensing, crop modeling, land use analysis, and climate data applications using tools like GEE, UAVs, and GIS software. 
+							<ul>
+								<li>Worked on land use characterization and agricultural land conversion dynamics using Google Earth Engine.
+</li>
+								<li>Quantified the ecological impact of forest biodiversity in Gazipur’s reserve forest.
+</li>
+								<li>Engaged in crop modeling using DSSAT and APSIM; performed biochemical tests like MAD and Proline.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">November,2023- February,2024</span>
+						<h2>Graduate Teaching Assistant</h2>
+						<span class="position">GIS and Remote Sensing Lab</span>
+						<p class="mt-4">
+							<ul>
+								<li>Conducted weekly lab sessions for 25+ graduate students on GIS and Remote Sensing.
+</li>
+								<li>Delivered guest lectures during lab visits from other universities.
+</li>
+								<li>Topics included remote sensing applications, GIS-based resource management, and climate data analysis.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">November,2022- Present</span>
+						<h2>Laboratory Assistant</h2>
+						<span class="position">GIS and Remote Sensing Lab</span>
+						<p class="mt-4">
+							<ul>
+								<li>Managed image pre-processing and field spectral data collection using handheld spectroradiometers and GNSS devices.
+
+
+</li>
+								<li>Maintained lab equipment (drones, plotters, computers), managed social media, and assisted in procurement processes.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+ 
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2023-2025</span>
+    					<h2>Masters in Agroforestry and Environment</h2>
+    					<span class="position">Gazipur Agricultural University</span>
+    					<p class="mt-4">CGPA: 3.655 out of 4.00</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2023</span>
+    					<h2>Bachelor of Science in Agriculture </h2>
+    					<span class="position"> Gazipur Agricultural University. Previously named Bangabandhu Sheikh Mujibur Rahman Agricultural University</span>
+    					<p class="mt-4">CGPA: 3.621 out of 4.00</p>
+    				</div>
+				
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/166ZnaxsUlbMhOUyxe1PzG2hoOp6HPfZG/view?usp=drivesdk" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample of Conducted GIS-based crop modeling with DSSAT and analyzed microplastics in water to assess environmental pollution and sustainability.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Wheat Leaf Chlorophyll Analysis</a></h3>
+                <p>Measured chlorophyll content of wheat leaves using LI-600 Porometer/Fluorometer to assess plant physiological responses under stress.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Measurement of Relative Water content of Wheat Leaf Under Stress Condition</a></h3>
+                <p>To measure the Relative Water Content (RWC) of wheat leaves under stress conditions, fresh leaves were first collected and their fresh weight (FW) was recorded. The leaves were then immersed in distilled water for 4 hours to achieve full turgidity, after which the turgid weight (TW) was measured. Finally, the leaves were dried in an oven at 70°C for 48 hours to determine the dry weight (DW). RWC was calculated using the formula: RWC (%) = [(FW − DW) / (TW − DW)] × 100. This method helps assess the water retention capacity of plants under stress.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Wheat Field Soil Monitoring</a></h3>
+                <p>Soil moisture and temperature of wheat fields were measured using a digital soil moisture meter and soil thermometer.
+These readings help assess root-zone conditions and plant responses under varying stress environments.s</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Measuring Mungbean Leaf Using Licor6800 Portable Photosyntesis System</a></h3>
+				  <p>Leaf gas exchange parameters of mungbean were measured using the LI-COR 6800 Portable Photosynthesis System.
+Fully expanded, healthy leaves were selected for recording photosynthetic rate, stomatal conductance, and transpiration.
+This method provides insights into plant physiological responses under environmental stress conditions.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Measuring the Above Ground Biomass & Weight of Harvested Potato</a></h3>
+				  <p>Measuring Soil Temperature in Potato field With Digital Soil Survey Meter and also measuring the above ground biomass & Weight of Harvested potato, root etc.</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+  <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_19.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Sample Collection of Microplastics from 30 point of Turag River
+</a></h3>
+                <p>Sample collection of microplastics was conducted at 30 key industrial and urban discharge points along the Turag River to assess pollution hotspots. This effort aimed to identify spatial distribution and potential sources of microplastic contamination in the river.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_6.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Lab Analysis of Microplastics Extraction
+</a></h3>
+                <p>Collected water samples underwent filtration, density separation, and microscopic examination to isolate microplastic particles.</p>
+              </div>
+            </div>
+          </div>
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_21.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">FTIR (Fourier Transform Infrared) Analysis of Microplastics at BCSIR
+</a></h3>
+                <p>The extracted microplastic samples were analyzed at the Bangladesh Council of Scientific and Industrial Research (BCSIR) using FTIR spectroscopy. This technique helped identify the specific polymer types by detecting their unique infrared absorption patterns.s</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+
+
+			
+
+
+<section class="ftco-section" id="Conference-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Conference</h1>
+            <h2 class="mb-4">Conference</h2>
+            <p>Presented research findings on geospatial analysis and crop modeling at national and international conferences focused on agriculture and environment.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_a.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">23rd National & 2nd International Conference of the Bangladesh Society of Agronomy (BSA)</a></h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_b.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">23rd National & 2nd International Conference of the Bangladesh Society of Agronomy (BSA)</a></h3>
+                <p>Theme: Smart Agronomy for Sustainable Crop Production
+Presentation Title: Assessing Growth and Yield of Wheat Cultivars Under Late Sowing Conditions Using Multispectral Imaging and DSSAT Model
+Session: Technical Session 7 – Advanced Data Analysis
+Role: Oral Presenter
+Venue: Bangladesh Agricultural University, Mymensingh ; Bangladesh.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_c.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">2nd South Asian Conference on Climate Resilience and Sustainability</a></h3>
+                <p>Theme: Advancing Climate Resilience through Local-Led Adaptation and Low-Carbon Development
+Role: Participant
+Date: November 2–3, 2024
+Venue: Press Institute of Bangladesh, Dhaka
+Highlights: Engaged in discussions on nature-based solutions, local-led adaptation, climate finance, and sustainable development across South Asia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		
+				</div>
+			  </div>
+			</div>
+
+<section class="ftco-section" id="Certifications-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Certifications</h1>
+            <h2 class="mb-4">Certifications</h2>
+            <p>Completed professional certifications in GIS, Remote Sensing, Climate Change Adaptation, and Sustainable Development.
+Earned recognition through leadership and volunteering certificates from national and international events. These certifications reflect strong technical expertise and commitment to environmental advocacy and innovation.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_7.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Hands-On Training Empowers Women in Geospatial Technology
+</a></h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_8.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Successfully Completed Orthorectification of Aerial Imagery Course
+</a></h3>
+                <p>Excited to have completed the “Orthorectification of Aerial Imagery through OrthoPhoto.io” course, deepening my skills in converting raw aerial photos into accurate, georeferenced images. This knowledge is vital for enhancing precision in GIS, mapping, and remote sensing applications.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_9.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Exploring GIS for a Sustainable Future: Reflections from an International Webinar
+</a></h3>
+                <p>Participated in an enlightening international webinar on “Connecting the Dots: The Role of Geography and GIS in Shaping the World,” hosted by Mody University and Esri India. The session spotlighted how GIS empowers sustainable solutions in disaster management, environmental planning, and urban development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		
+				</div>
+			  </div>
+			</div>
+        <div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/166ZnaxsUlbMhOUyxe1PzG2hoOp6HPfZG/view?usp=drivesdk" class="btn btn-primary py-4 px-5">Explore Over 100 Certifications</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+<section class="ftco-section" id="Trainning">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Trainning</h1>
+            <h2 class="mb-4">Trainning</h2>
+            <p>Successfully completed a wide range of national and international training programs in GIS, remote sensing, climate resilience, and environmental sustainability. Additionally, participated in leadership, volunteering, and programming skill development workshops, strengthening both technical and soft skills. These hands-on experiences enriched my ability to contribute effectively to geospatial, environmental, and community-driven initiatives.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_10.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Completed 80-Hour Training on Data Analysis by Microcomputer
+
+
+</a></h3>
+                <p>Proud to complete an intensive training organized by CSIT, Gazipur Agricultural University, in collaboration with the EDGE Project of BCC (ICT Division). Strengthened my data handling, analysis, and digital literacy skills essential for today’s data-centric environment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_12.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Empowering Research on Climate Migration: A Two-Day Symposium & Workshop Experience
+
+
+
+</a></h3>
+                <p>Glad to join the climate migration event organized by the University of Colorado and ICCCAD at BRAC Centre Inn, Dhaka, featuring esteemed speakers like Dr. Amanda Carrico (Associate Professor, University of Colorado) and Dr. Kelsea Best (Assistant Professor, Ohio State University), among others. Gained hands-on experience with the BEMS dataset using R and explored key topics on migration, policy, and environmental stress—an inspiring and skill-enriching experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_11.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Participated in OCL Discourse Session 03 on GIS & Water Modeling
+</a></h3>
+                <p>Thrilled to attend the O.CREEDS LTD. (OCL) Discourse Session 03, led by Md. Ayman Azad, on “Application of Mathematical Modeling and GIS Technology for Feasibility Study of Water Development Projects.” The session fostered interactive learning and collaboration, with special thanks to Sadia Tasnim apu for her excellent coordination.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+<section class="ftco-section" id="Extra-Curricular Activities and Volunteering-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Extra-Curricular Activities and Volunteering</h1>
+            <h2 class="mb-4">Extra-Curricular Activities and Volunteering</h2>
+            <p>Actively engaged in various extra-curricular activities, including science clubs, youth forums, and environmental awareness campaigns at both university and community levels. Volunteered in organizing conferences, climate action events, and capacity-building workshops, contributing to knowledge-sharing and youth empowerment. These experiences enhanced my leadership, teamwork, and communication skills while promoting social and environmental impact.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_13.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Organizing GIS Day 2024 at GAU: Mapping Minds, Shaping the World
+
+
+
+</a></h3>
+                <p>The Department of Remote Sensing and GIS at BSMRAU hosted GIS Day 2024, engaging Forestry students through presentations, lab visits, interactive demos, and a quiz session.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_14.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">GAU Science Club Partners with Techno Carts V2 Competition
+
+
+
+</a></h3>
+                <p>Proud to collaborate with IUBAT as a partner for Techno Carts V2, scheduled on December 7,2024 at the IUBAT campus. A fruitful meeting was held with their delegation, and students are encouraged to register by November 20 to join this exciting STEM event!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_15.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">From Setbacks to Strides: My Marathon Journey Begins
+
+
+</a></h3>
+                <p>What started as an impulsive decision to join a marathon turned into a fulfilling experience through virtual runs like the Mega City 7.5K and CUAC Virtual Run 2024. These moments of perseverance have inspired me to aim higher—with half and full marathons now in sight.</p>
+              </div>
+            </div>
+          </div>
+        </div>		
+<section class="ftco-section" id="Awards-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Awards</h1>
+            <h2 class="mb-4">Awards</h2>
+            <p>Recognized for academic excellence, leadership, and active involvement in scientific and environmental initiatives at both institutional and national levels. Awards highlight dedication to innovation, community engagement, and impactful contributions in geospatial and sustainability fields .</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_16.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Awarded NST Fellowship 2024–25 for MS Research
+</a></h3>
+                <p>Honored to receive the NST Fellowship 2024–25 in recognition of my MS research on precision agriculture and sustainable land management.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_17.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Honored as Best Executive Member of GAU Science Club 2024
+</a></h3>
+                <p>Grateful to be recognized as the Best Executive Member of the GAU Science Club 2024, celebrating a year of leadership, collaboration, and scientific engagement. Heartfelt thanks to our Vice-Chancellor Dr. G.K.M. Mustafizur Rahman and Treasurer Dr. Safiul Islam Afrad for their inspiring presence and encouragement.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_18.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Presented at iGEM Seminar on Synthetic Biology at GAU
+</a></h3>
+                <p>On July 1st, 2024, I had the honor of presenting as Project Leader at a seminar titled “iGEM Pathways: SynBio for the Future,” hosted by the iGEM Community and GAU Science Club at GAU. It was a valuable platform to share insights on synthetic biology and its future potential.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+		<br>
+		
+				</div>
+			  </div>
+			</div>
+
+<div class="row d-flex justify-content-center">  
+			
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="20">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="30">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve Research problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/nishatsafa15" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+
+	
+
+
+
+
+<div class="row d-flex justify-content-center">  
+			
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="20">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="30">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  	
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>GIS and Remote Sensing Lab, Gazipur Agricultural University,Gazipur; Bangladesh.</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="Whatsapp No">+8801621874667</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">nishat.tasnim.safa@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/166ZnaxsUlbMhOUyxe1PzG2hoOp6HPfZG/view?usp=sharing">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/nishattasnimsafa"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://www.facebook.com/share/14G43shtwpH/"><span class="icon-facebook"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
